@@ -1,11 +1,12 @@
 
 import './App.css';
+import { Cards } from './pages/Cards';
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="container">
+      <Cards />
     </div>
   );
 }
